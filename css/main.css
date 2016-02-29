@@ -6,8 +6,8 @@ html {
 
 header {
   display: block;
-  margin: 0;
-  padding: .5em;
+  margin: 1.5em;
+  padding: 1.5em;
   background-color: #259f95;
   border-color: #1e7c74;
   border: 1px solid #1e7c74;
@@ -36,6 +36,7 @@ p {
   font-size: 1rem;
   color: #222;
   padding: 1.5em;
+  text-indent: .75em;
 }
 
 img {
@@ -54,10 +55,18 @@ footer {
   text-align: center;
   display: block;
   color: #fff;
-  margin: 0;
-  padding: .5em;
+  margin: 1.5em;
+  padding: 1.5em;
   background-color: #259f95;
   border-color: #1e7c74;
   border: 1px solid #1e7c74;
   border-radius: 8px;
+}
+
+p:nth-child(2) {
+  text-indent: 0;
+}
+
+p:nth-child(2)::first-line {
+  color: #1e7c74;
 }
