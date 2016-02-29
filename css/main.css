@@ -35,4 +35,29 @@ h1 {
 p {
   font-size: 1rem;
   color: #222;
+  padding: 1.5em;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+body {
+  max-width: 47em;
+  line-height: 1.5em;
+  margin: 0;
+}
+
+footer {
+  font-size: 0.75rem;
+  text-align: center;
+  display: block;
+  color: #fff;
+  margin: 0;
+  padding: .5em;
+  background-color: #259f95;
+  border-color: #1e7c74;
+  border: 1px solid #1e7c74;
+  border-radius: 8px;
 }
