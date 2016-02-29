@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+  font-family: "Libre Baskerville", serif;
+  background-color: #fff;
+}
+
+header {
+  display: block;
+  margin: 0;
+  padding: .5em;
+  background-color: #259f95;
+  border-color: #1e7c74;
+  border: 1px solid #1e7c74;
+  border-radius: 8px;
+}
+
+.chapter-num {
+  display: block;
+  font-size: 1rem;
+  color: #fff;
+  font-style: italic;
+  text-align: left;
+}
+
+.colon {
+  display: none;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: left;
+}
+
+p {
+  font-size: 1rem;
+  color: #222;
+}
